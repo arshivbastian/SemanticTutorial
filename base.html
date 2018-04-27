@@ -3,17 +3,66 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="semantic.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="maincss.css">
   <script type="text/javascript" src="jquery.min.js"></script>
   <script type="text/javascript" src="semantic.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="mainscript.js"></script>
 </head>
 
 <body rel='0'>
         <div class="ui three item menu">
-                <a class="active item">sub1</a>
-                <a class="item">sub2</a>
-                <a class="item">sub3</a>
+                <a class="active item">Diffrent kind of Grids</a>
+                <a class="item">colors</a>
+                <a class="item">label</a>
+        </div>
+        <div>
+            first u need to know what are grides grids are columns a nd rows in a page that can be responsive or stackable  here I add some grides 
+            In semantic we have 16 columns in each row .
+            <h3>  row  </h3>
+            <div class="ui grid"><div class="row bgrd"></div></div>
+            <br><br>
+            as you can see a row take entire width of the parent ( thatb is body and body has a margin 50px )
+            <h3>  culomns  </h3>
+            you can add diferent kind of columns to a row div
+            <br><br>
+            <div class="ui grid">
+                <div class="three column row bgrd">
+                    <div class="column bgbl"></div>
+                    <div class="column"></div>
+                    <div class="column bgbl"></div>
+                </div>
+            </div>
+            <br><br>
+            this was a three column row that first and last column has a special bgcolor
+            <br><br>
+
+            <h3>  Floated culomns  </h3>
+            you can have a three column row but add two columns on it and use float to push them right or left
+            <br><br>
+            <div class="ui grid">
+                <div class="three column row bgrd">
+                    <div class="left floated column bgbl"></div>
+                    <div class="right floated column bgbl"></div>
+                </div>
+            </div>
+            <br><br>
+            it looks same
+            <br><br>
+
+            <h3>  stackable culomns  </h3>
+            these kind of columns are beautiful and when u minimize ur browser to  mobile size , they place under eachother
+            <br><br>
+            <div class="ui stackable four column grid">
+                    <div class="column bgrd"></div>
+                    <div class="column bgbl"></div>
+                    <div class="column bggr"></div>
+                    <div class="column bgyl"></div>
+            </div>
+            <br><br>
+            awesome!
+            for more please  read "https://semantic-ui.com/collections/grid.html"
+            <br><br>
+
         </div>
 </body>
 

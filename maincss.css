@@ -1,3 +1,19 @@
 body {
-    margin-top: 20px;
+    margin: 50px;
+}
+.bgrd {
+    background-color: tomato;
+    height: 50px;
+}
+.bgbl {
+    background-color:skyblue;
+    height: 30px;
+}
+.bggr {
+    background-color:olive;
+    height: 30px;
+}
+.bgyl {
+    background-color:gold;
+    height: 30px;
 }
